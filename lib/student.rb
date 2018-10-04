@@ -59,7 +59,9 @@ class Student
   end
 
   def self.all_students_in_grade_9
-    
+    self.all.select do |student|
+      student.grade = 0
+    end
 
   end
 end
