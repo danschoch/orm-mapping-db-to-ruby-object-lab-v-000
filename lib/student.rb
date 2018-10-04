@@ -60,7 +60,7 @@ class Student
 
   def self.all_students_in_grade_9
     self.all.select do |student|
-      student.grade == 9
+      student.grade == "9"
     end
   end
 end
