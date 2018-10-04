@@ -62,6 +62,5 @@ class Student
     self.all.select do |student|
       student.grade = 0
     end
-
   end
 end
